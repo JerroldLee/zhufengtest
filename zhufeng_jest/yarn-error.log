@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\张仁阳\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev babel-jest @types/jest @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript typescript
+
+PATH: 
+  C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\program1\apache-maven-3.5.3\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Users\张仁阳\.windows-build-tools\python27\;C:\Users\张仁阳\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\张仁阳\AppData\Local\Programs\Python\Python38\;C:\Users\张仁阳\AppData\Local\Microsoft\WindowsApps;C:\program1\apache-maven-3.5.3\bin;C:\program1\elasticsearch-6.5.4\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\张仁阳\AppData\Local\Programs\EmEditor;C:\program1\MongoDB\bin;C:\program1\gradle-5.4-bin\gradle-5.4\bin;C:\program1\flutter\bin;C:\SDK\platform-tools;C:\SDK\tools​​​​​​​;C:\Users\张仁阳\AppData\Local\Programs\Fiddler;C:\Users\张仁阳\AppData\Roaming\npm;C:\Users\张仁阳\AppData\Local\Microsoft\WindowsApps;C:\Users\张仁阳\AppData\Local\Programs\Microsoft VS Code2\bin;C:\Users\张仁阳\AppData\Local\Programs\Python\Python38;
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\张仁阳\AppData\Local\Yarn\Cache\v6\npm-kind-of-5.1.0-729c91e2d857b7a419a1f9aa65685c4c33f5845d-integrity\node_modules\kind-of\LICENSE' -> 'C:\vipdata\normal\zhufeng_test\node_modules\define-property\node_modules\kind-of\LICENSE'
+
+npm manifest: 
+  {
+    "name": "zhufeng_test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest",
+      "cov": "jest --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "jest": "^24.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
